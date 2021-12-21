@@ -20,15 +20,138 @@
   height: 80px;
   width: 100%;
   background-color: darkgoldenrod;
+  padding: 27px 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.footer .container .footer-main .footer-service li{
+  height: 100%;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  color: #616161;
+}
+
+.footer .container .footer-main .footer-service li span{
+  width: 24px;
+  height: 25px;
+  background-image: url(../img/footer/footer-main/footer-service/扳手.png);
+  background-repeat: no-repeat;
+  background-size: 24px 25px;
 }
 
 .footer .container .footer-main .footer-links{
   height: 252.5px;
   width: 100%;
   background-color: darkseagreen;
+  box-sizing: border-box;
+  padding: 40px 0;
+  display: flex;
+}
+
+.footer .container .footer-main .footer-links .left{
+  flex-basis: 975px;
+  height: 100%;
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer .container .footer-main .footer-links .left .col{
+  height: 100%;
+  width: calc(100% / 6);
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .container .footer-main .footer-links .left .col a{
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.footer .container .footer-main .footer-links .left .col .bigLink{
+  font-size: 14px;
+  margin-bottom: 26px;
+  /* flex-basis: 17.5px; */
+  height: 17.5px;
+}
+
+.footer .container .footer-main .footer-links .left .col .smallLink{
+  font-size: 12px;
+
 }
 
 
+.footer .container .footer-main .footer-links .right{
+  flex: 1;
+  height: 100%;
+  background-color: steelblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .container .footer-main .footer-links .right .phone{
+  font-size: 22px;
+  color: #ff6700;
+}
+
+.footer .container .footer-main .footer-links .right a{
+  width: 120px;
+  height: 30px;
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ff6700;
+  background: #fff;
+  color: #ff6700;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .4s;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.footer .container .footer-main .footer-links .right a .pic{
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  background-image: url(../img/footer/footer-main/footer-service/扳手.png);
+  background-repeat: no-repeat;
+  background-size: 12px 12px;
+}
+
+.footer .container .footer-main .footer-links .right a:hover{
+  color: #fff;
+  background-color: #f25807;
+  border-color: #f25807;
+}
+
+.footer .container .footer-main .footer-links .right .folow{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .container .footer-main .footer-links .right .folow .weibo, .footer .container .footer-main .footer-links .right .folow .weixin{
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-image: url(../img/footer/footer-main/footer-service/扳手.png);
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-position: bottom
+}
 
 .footer .container .footer-info{
   width: 100%;
