@@ -28,6 +28,20 @@
   width: 100%;
   height: 58px;
   background-color: darkblue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.provideGoods .container .brick-box .box-hd .title{
+  font-size: 22px;
+  font-weight: 200;
+  color: #333;
+}
+
+.provideGoods .container .brick-box .box-hd .more{
+
 }
 
 .provideGoods .container .brick-box .box-bd{
