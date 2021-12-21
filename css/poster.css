@@ -4,6 +4,7 @@
   display: flex;
   background-color: beige;
   margin: 0 auto;
+  margin-top: 14px;
 }
 
 .poster .fastLink{
