@@ -54,7 +54,7 @@
   background-image: url(../img/小米购物车.png);
   background-repeat: no-repeat;
   background-size: 20px 20px;
-  background-position: bottom 62.5% left 11px;
+  background-position: bottom 62.5% left 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,7 +68,7 @@
   background-image: url(../img/小米购物车-选中.png);
   background-repeat: no-repeat;
   background-size: 20px 20px;
-  background-position: bottom 62.5% left 11px;
+  background-position: bottom 62.5% left 10px;
 }
 
 .site-topbar .container .siteUserInfo{
