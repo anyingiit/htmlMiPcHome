@@ -50,7 +50,6 @@
 .site-topbar .container .miniCartTrigger{
   width: 120px;
   height: 100%;
-  background: #ff6700;
   background-image: url(../img/小米购物车.png);
   background-repeat: no-repeat;
   background-size: 20px 20px;
@@ -58,9 +57,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: #b0b0b0;
   cursor: pointer;
+  background-color: #424242;;
 }
+
 
 .site-topbar .container .miniCartTrigger:hover{
   background: #fff;
@@ -124,14 +125,77 @@
 .sit-header .logo{
   background-color: brown;
   width: 234px;
+  background: url(../img/icon-小米归属.png) no-repeat left;
+  background-size: 56px 56px;
 }
 
 .sit-header .main-nav{
   flex: 1;
   background-color: cadetblue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.sit-header .main-nav li{
+  color: #333;
+  transition: color .2s;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+}
+
+.sit-header .main-nav li:hover{
+  color: #ff6700;
 }
 
 .sit-header .search{
   width: 296px;
   background-color: chocolate;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sit-header .search .search-box{
+  width: 100%;
+  display: flex;
+}
+
+.sit-header .search .search-box input{
+  height: 50px;
+  width: 245px;
+  box-sizing: border-box;
+  border: 1px solid #e0e0e0;
+  padding-left: 10px;
+  padding-right: 10px;
+  list-style-type: none;
+  transition: all .2s;
+  outline: none;
+}
+
+.sit-header .search .search-box input:hover, .sit-header .search .search-box input:hover + .button{
+  border-color: #757575;
+}
+
+.sit-header .search .search-box input:focus, .sit-header .search .search-box input:focus + .button{
+  border-color: #ff6700;
+}
+
+
+
+
+.sit-header .search .search-box .button{
+  flex: 1;
+  width: 52px;
+  height: 50px;
+  background-color: rgb(154, 202, 114);
+  display: inline-block;
+  box-sizing: border-box;
+  border: solid #e0e0e0;
+  border-width: 1px 1px 1px 0;
+  padding-left: 6px;
+  padding-right: 6px;
 }
