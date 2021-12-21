@@ -153,10 +153,18 @@
   background-position: bottom
 }
 
-.footer .container .footer-info{
+.footer .footer-info-container{
   width: 100%;
   height: 226px;
   padding: 30px 0;
+  background-color: skyblue;
+}
+
+.footer .footer-info-container .footer-info{
+  /* width: 100%; */
+  width: 1226px;
+  margin: 0 auto;
+  height: 100%;
   box-sizing: border-box;
   background-color: violet;
 }
