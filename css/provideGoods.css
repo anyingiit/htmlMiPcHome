@@ -16,6 +16,7 @@
   margin: 22px 0;
   background: url(../img/provideGoods/banner-box/K40超长图横幅.webp) no-repeat center;
   background-size: 100% 100%;
+  cursor: pointer;
 }
 
 .provideGoods .container .brick-box{
