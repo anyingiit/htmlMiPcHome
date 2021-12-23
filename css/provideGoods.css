@@ -12,7 +12,7 @@
 .provideGoods .container .banner-box{
   width: 100%;
   height: 120px;
-  background-color: blue;
+  /* background-color: blue; */
   margin: 22px 0;
   background: url(../img/provideGoods/banner-box/K40超长图横幅.webp) no-repeat center;
   background-size: 100% 100%;
@@ -21,13 +21,13 @@
 
 .provideGoods .container .brick-box{
   width: 100%;
-  background-color: thistle;
+  /* background-color: thistle; */
 }
 
 .provideGoods .container .brick-box .box-hd{
   width: 100%;
   height: 58px;
-  background-color: darkblue;
+  /* background-color: darkblue; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -68,7 +68,7 @@
 .provideGoods .container .brick-box .box-bd{
   width: 100%;
   height: 628px;
-  background-color: darkcyan;
+  /* background-color: darkcyan; */
   display: flex;
 }
 
@@ -77,7 +77,7 @@
   height: 100%;
   margin-left: 14px;
   box-sizing: border-box;
-  background-color: crimson;
+  /* background-color: crimson; */
   transition: all .2s linear;
   cursor: pointer;
 }
@@ -95,7 +95,7 @@
 .provideGoods .container .brick-box .box-bd .items{
   flex: 1;
   height: 100%;
-  background-color: darkgoldenrod;
+  /* background-color: darkgoldenrod; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -104,16 +104,17 @@
 .provideGoods .container .brick-box .box-bd .items .item{
   flex-basis: calc(100% / 4 - 14px);
   /* width: 234px; */
-  height: 300px;
+  height: calc(50% - 7px);
   margin-left: 14px;
   margin-bottom: 14px;
-  background-color: azure;
+  /* background-color: azure; */
   transition: all .2s linear;
   cursor: pointer;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #fff;
 }
 
 .provideGoods .container .brick-box .box-bd .items .item .pic{

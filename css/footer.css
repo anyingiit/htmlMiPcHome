@@ -7,19 +7,19 @@
   margin: 0 auto;
   width: 1226px;
   height: 100%;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
 
 .footer .container .footer-main{
   width: 100%;
   /* height: 50%; */
-  background-color: darkkhaki;
+  /* background-color: darkkhaki; */
 }
 
 .footer .container .footer-main .footer-service{
   height: 80px;
   width: 100%;
-  background-color: darkgoldenrod;
+  /* background-color: darkgoldenrod; */
   padding: 27px 0;
   box-sizing: border-box;
   display: flex;
@@ -68,7 +68,7 @@
 .footer .container .footer-main .footer-links{
   height: 252.5px;
   width: 100%;
-  background-color: darkseagreen;
+  /* background-color: darkseagreen; */
   box-sizing: border-box;
   padding: 40px 0;
   display: flex;
@@ -77,7 +77,7 @@
 .footer .container .footer-main .footer-links .left{
   flex-basis: 975px;
   height: 100%;
-  background-color: yellow;
+  /* background-color: yellow; */
   display: flex;
   flex-direction: row;
 }
@@ -111,7 +111,7 @@
 .footer .container .footer-main .footer-links .right{
   flex: 1;
   height: 100%;
-  background-color: steelblue;
+  /* background-color: steelblue; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -185,7 +185,7 @@
   width: 100%;
   height: 226px;
   padding-top: 30px;
-  background-color: skyblue;
+  /* background-color: skyblue; */
 }
 
 .footer .footer-info-container .footer-info{
@@ -194,7 +194,7 @@
   margin: 0 auto;
   height: 157px;
   box-sizing: border-box;
-  background-color: violet;
+  /* background-color: violet; */
   display: flex;
 }
 
@@ -205,13 +205,13 @@
   margin-right: 20px;
   background: url(../img/icon-小米归属.png) no-repeat;
   background-size: 56px;
-  background-color: royalblue;
+  /* background-color: royalblue; */
 }
 
 .footer .footer-info-container .footer-info .text{
   width: 1149px;
   height: 100%;
-  background-color: rgb(94, 245, 152);
+  /* background-color: rgb(94, 245, 152); */
 }
 
 

@@ -2,7 +2,7 @@
   width: 1226px;
   height: 170px;
   display: flex;
-  background-color: beige;
+  /* background-color: beige; */
   margin: 0 auto;
   margin-top: 14px;
 }
@@ -10,18 +10,19 @@
 .poster .fastLink{
   width: 234px;
   height: 100%;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  background: #5f5750;
 }
 
 .poster .fastLink .item{
   flex-basis: calc(100% / 3);
   height: calc(100% / 2);
-  background-color: bisque;
+  /* background-color: bisque; */
   box-sizing: border-box;
-  border: 1px solid rgb(206, 143, 143);
+  /* border: 1px solid rgb(206, 143, 143); */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,7 +61,7 @@
 .poster .pics{
   flex: 1;
   height: 100%;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   display: flex;
   flex-direction: row;
 }
@@ -69,7 +70,7 @@
   margin-left: 14px;
   flex-basis: calc(100% / 3);
   box-sizing: border-box;
-  border: 1px solid forestgreen;
+  /* border: 1px solid forestgreen; */
   transition: box-shadow .2s linear,-webkit-box-shadow .2s linear;
   cursor: pointer;
 }

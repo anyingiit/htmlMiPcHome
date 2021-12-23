@@ -115,7 +115,7 @@
 .sit-header{
   height: 100px;
   width: 1226px;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -123,7 +123,7 @@
 
 
 .sit-header .logo{
-  background-color: brown;
+  /* background-color: brown; */
   width: 234px;
   background: url(../img/icon-小米归属.png) no-repeat left;
   background-size: 56px 56px;
@@ -131,7 +131,7 @@
 
 .sit-header .main-nav{
   flex: 1;
-  background-color: cadetblue;
+  /* background-color: cadetblue; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -153,7 +153,7 @@
 
 .sit-header .search{
   width: 296px;
-  background-color: chocolate;
+  /* background-color: chocolate; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -191,7 +191,7 @@
   flex: 1;
   width: 52px;
   height: 50px;
-  background-color: rgb(154, 202, 114);
+  /* background-color: rgb(154, 202, 114); */
   display: inline-block;
   box-sizing: border-box;
   border: solid #e0e0e0;
