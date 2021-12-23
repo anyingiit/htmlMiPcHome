@@ -45,6 +45,26 @@
   background-size: 24px 25px;
 }
 
+.footer .container .footer-main .footer-service li .a{
+  background-image: url(../img/footer/footer-main/footer-service/扳手.png);
+}
+
+.footer .container .footer-main .footer-service li .b{
+  background-image: url(../img/footer/footer-main/footer-service/7天退换.png);
+}
+
+.footer .container .footer-main .footer-service li .c{
+  background-image: url(../img/footer/footer-main/footer-service/15天包退.png);
+}
+
+.footer .container .footer-main .footer-service li .d{
+  background-image: url(../img/footer/footer-main/footer-service/礼包.png);
+}
+
+.footer .container .footer-main .footer-service li .e{
+  background-image: url(../img/footer/footer-main/地点.png);
+}
+
 .footer .container .footer-main .footer-links{
   height: 252.5px;
   width: 100%;
@@ -124,15 +144,19 @@
   width: 12px;
   height: 12px;
   display: inline-block;
-  background-image: url(../img/footer/footer-main/footer-service/扳手.png);
+  background-image: url(../img/poster/图标/人工客服.png);
   background-repeat: no-repeat;
   background-size: 12px 12px;
 }
 
 .footer .container .footer-main .footer-links .right a:hover{
-  color: #fff;
-  background-color: #f25807;
-  border-color: #f25807;
+	color: #fff;
+	background-color: #f25807;
+	border-color: #f25807;
+}
+
+.footer .container .footer-main .footer-links .right a:hover .pic{
+  background-image: url(../img/poster/图标/人工客服（选中）.png) ;
 }
 
 .footer .container .footer-main .footer-links .right .folow{
@@ -147,10 +171,14 @@
   width: 24px;
   height: 24px;
   display: inline-block;
-  background-image: url(../img/footer/footer-main/footer-service/扳手.png);
+  background-image: url(../img/poster/图标/微信.png);
   background-repeat: no-repeat;
   background-size: 24px 24px;
   background-position: bottom
+}
+
+.footer .container .footer-main .footer-links .right .folow .weibo{
+	background-image: url(../img/poster/图标/新浪微博.png);
 }
 
 .footer .footer-info-container{
@@ -175,7 +203,7 @@
   width: 56px;
   height: 56px;
   margin-right: 20px;
-  background: url(../img/footer/footer-main/footer-service/扳手.png) no-repeat;
+  background: url(../img/icon-小米归属.png) no-repeat;
   background-size: 56px;
   background-color: royalblue;
 }
